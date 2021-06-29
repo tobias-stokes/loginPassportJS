@@ -14,7 +14,6 @@
     const flash = require('express-flash');
     const session = require('express-session');
     const methodOverride = require('method-override');
-const { response } = require('express');
 
 // Global variables
     const port = process.env.PORT || 3000;
