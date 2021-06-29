@@ -1,0 +1,36 @@
+{
+  "name": "loginpassportjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobias-stokes/loginPassportJS.git"
+  },
+  "author": "Tobias Stokes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobias-stokes/loginPassportJS/issues"
+  },
+  "homepage": "https://github.com/tobias-stokes/loginPassportJS#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "nedb": "^1.8.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}

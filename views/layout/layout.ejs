@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login PassportJS</title>
+</head>
+<body>
+    <h1> Login PassportJS </h1>    
+
+        <% if (auth != undefined) { %>
+            <%- include('partials/loggedInHeader.ejs') %>
+        <% } else { %>
+            <%- include('partials/loggedOutHeader.ejs') %>
+        <% } %>
+
+    <h2> <%= pageName %> </h2>
+
+    <%- body %>
+</body>
+</html>
